@@ -19,18 +19,18 @@ site-keywords:
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: background.jpg
+heroimage: ../images/programming.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: thedevslot@gmail.com
-twitter_username: MikeChilson09
+twitter_username: MikeChilson9
 github_username:  mchilson
 youtube_channel_id: UC2gX0fPOjIe5mBmT2QASwjQ
 spotify_username: mikechilson
 
 # Google Analytics
-google-analytics: UA-163806439-1
+# google-analytics: UA-163806439-1
 
 # Disqus
 disqus-shortname: mike_chilson
@@ -40,7 +40,10 @@ author-name: Mike Chilson
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about-1: I am a freelance software developer with over 40 years of experience based in Birmingham, Alabama. I currently work within web-based technologies with a specialization in full-stack web applications, server-side API's and Native Electron Applications. I have a broad background in software development in the manufacturing, healthcare, transportation, mining and service industries, both platform-specific applications and web-based ones. Check out my Portfolio on the site menu for some examples of my recent work.
+author-about-2: Something that sets me apart from most contract developers is I do value-based pricing. That simply means I don't force an hourly rate on projects but try to give a client a fixed cost once the deliverables are agreed upon. This shares the risk with the client making them a happy long-term returning customer when their project is delivered within budget.
+author-about-3: I am fluent in C/C++, PHP, Ruby, Prolog, R, and of course HTML, CSS/SCSS, and Javascript. I regularly use the following frameworks... Rails, Sinatra, and Jekyll for Ruby. Shiny and Plumber in R. I also have working knowledge of SQL with the following database servers PostgreSQL, MS SQL Server, MySQL, and SQLite.
+
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
 
@@ -90,3 +93,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+jekyll_admin:
+  homepage: "pages"
+
