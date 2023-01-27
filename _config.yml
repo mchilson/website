@@ -14,16 +14,16 @@ description: Freelance Software Developer/Engineer
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
-site-keywords:
+site-keywords: Freelance, Programming, Software Solutions, Software Development, Technical Tips
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: ../images/favicon.ico
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: ../images/programming.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
+email:
 twitter_username: MikeChilson9
 github_username:  mchilson
 youtube_channel_id: UC2gX0fPOjIe5mBmT2QASwjQ
@@ -33,7 +33,7 @@ spotify_username: mikechilson
 # google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: mike_chilson
+disqus-shortname: website-Fjm3BuUzy0
 
 # Name of the Author
 author-name: Mike Chilson
