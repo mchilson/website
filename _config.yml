@@ -16,7 +16,7 @@ site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Freelance, Programming, Software Solutions, Software Development, Technical Tips
 # URL for the Image of custom Favicon
-favicon-url: ../images/favicon.ico
+favicon-url: /assets/images/favicon.ico
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: ../images/programming.jpg
@@ -38,7 +38,7 @@ disqus-shortname: website-Fjm3BuUzy0
 # Name of the Author
 author-name: Mike Chilson
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/mike.jpg
 # 60 Words About the Author
 author-about-1: I am a freelance software developer with over 40 years of experience based in Birmingham, Alabama. I currently work within web-based technologies with a specialization in full-stack web applications, server-side API's and Native Electron Applications. I have a broad background in software development in the manufacturing, healthcare, transportation, mining and service industries, both platform-specific applications and web-based ones. Check out my Portfolio on the site menu for some examples of my recent work.
 author-about-2: Something that sets me apart from most contract developers is I do value-based pricing. That simply means I don't force an hourly rate on projects but try to give a client a fixed cost once the deliverables are agreed upon. This shares the risk with the client making them a happy long-term returning customer when their project is delivered within budget.
