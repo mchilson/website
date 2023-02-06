@@ -16,10 +16,8 @@
                             </figure>
                         </div>
                         <div class="column is-marginless">
-                            <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
-                            <div class="content has-text-grey">
-                                <p>{{site.author-about | truncate: 75 }}</p>
-                            </div>
+                            <h4 class="has-text-grey-lighter">{{site.author-name}}<br>Birmingham, AL USA</h4>
+                            <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
                         </div>
                     </div>
                 </a>
@@ -28,16 +26,9 @@
             <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
-                {% unless sitepage.url == '/'  limit: 2 %}
-                <li>
-                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
-                </li>
-                {% endunless %}
-                {% endfor %}
-                <li>
-                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
-                </li>
+                <li><a target="_blank" href="https://www.nottingham.ac.uk/research/groups/col/computerphile-videos/">ComputerPhile</a></li>
+                <li><a target="_blank" href="http://cleancoder.com/products">Bob Martin - Clean Coder</a></li>
+                <li><a target="_blank" href="https://www.r-bloggers.com/">R-bloggers</a></li>
             </div>
 
             <!--Blog-post Section-->

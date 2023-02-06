@@ -13,8 +13,20 @@
 - name: Warehouse Robotic Management System
   link:
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/3/warehouse.png
-  description: This application monitors creates and controls delivery systems in a warehouse to get parts to assembly lines in the most efficient manner. This Linux-based application uses a neural net to calculate the most efficient route based on the existing traffic and the destination. It also monitors the unit status via wifi and warns when there are issues. This console application is written in Ruby and the database back-end is PostgreSQL.
+  description: This application monitors controls delivery systems in a warehouse to get parts to assembly lines efficiently. This application uses a neural net to calculate the most efficient route based on traffic and the destination. It also monitors the unit status and warns when there are issues. This application is written in Ruby and the database back-end is PostgreSQL.
 - name: Priority Software, Inc.
-  link:
+  link: https://prioritysoftware.com
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/8/prioritysoftware.png
   description: Priority Software, Inc. was in need of a new site that was easy to maintain and there to help answer questions from potential customers about their software products. This site was developed using WordPress with a customized theme and several custom-developed plug-ins written in PHP.
+- name: MyPassword.Guru
+  link: https://mypassword.guru/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/12/mypassword.guru.png
+  description: This is a small SaaS (Software as a Service) project I developed for myself after becoming tired of being bombarded by ads or being forced to register for other password sites. While I developed this for myself others are encouraged to use it if needed. It is currently being cleaned up so it can be released as open-source.
+- name: TexNRails Website
+  link: https://texnrails.com/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/4/texnrails.png
+  description: TexNRails was a rewrite/redesign of a customer's website that added e-commerce functionality and an responsive to different browsing devices (computers/phones/tablets). The project was developed within the WordPress CMS framework and involved some PHP, Javascript, and CSS. There are also several web scraping services to update from manufacturers web sites.
+- name: RCScaleBuilder.com (RCSB)
+  link: https://rcscalebuilder.com/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/2/rcsb.png
+  description: RCSB is a hobby community site that has over 16,000 active members and is a worldwide community for this hobby. This site has matured over a 15 year period and continues to grow. This site was developed in Classic ASP and has sub-systems written in ASP.NET and Ruby on Rails. it also uses a couple of Ruby-based web services on the back-end.

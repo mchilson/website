@@ -16,7 +16,7 @@ site-image: ../assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Freelance, Programming, Software Solutions, Software Development, Technical Tips
 # URL for the Image of custom Favicon
-favicon-url: ../assets/images/favicon.ico
+favicon-url: assets/images/favicon.ico
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: ../images/programming.jpg
@@ -45,7 +45,7 @@ author-about-2: Something that sets me apart from most contract developers is I 
 author-about-3: I am fluent in C/C++, PHP, Ruby, Prolog, R, and of course HTML, CSS/SCSS, and Javascript. I regularly use the following frameworks... Rails, Sinatra, and Jekyll for Ruby. Shiny and Plumber in R. I also have working knowledge of SQL with the following database servers PostgreSQL, MS SQL Server, MySQL, and SQLite.
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://mikechilson.com
 
 # SASS
 sass:
@@ -54,7 +54,6 @@ sass:
 
 # Build settings
 plugins:
-  - jekyll-admin
   - jekyll-feed
 
 # Permalink
