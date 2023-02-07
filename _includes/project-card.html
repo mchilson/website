@@ -1,7 +1,8 @@
 <div class="columns is-centered is-multiline is-mobile">
   {% for project in site.data.projects %}
     <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch" id="project-card">
-      {% if project.link == "" %}
+      {% assign link = project.link | strip_newlines %}
+      {% if link == "" %}
       <a href="/project">
       {% else %}
       <a href="{{project.link}}" target="_blank">
