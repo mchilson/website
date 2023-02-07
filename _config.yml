@@ -5,7 +5,7 @@ markdown: kramdown
 url: 'https://mikechilson.com'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 # baseurl: 'https://mchilson.github.io/website' # use this one when deploying
-baseurl: 'https://mikechilson.com'
+baseurl: ''
 
 # Title of the Site
 title: Mike Chilson
