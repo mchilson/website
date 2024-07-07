@@ -13,7 +13,7 @@ If you're working with Ruby on Rails, you might have heard about Rails Helpers. 
 
 What are Rails Helpers?
 
-In Rails, Helpers are modules that contain methods that can be used throughout your application. They're designed to help you write reusable code that can be called from multiple views, controllers, or other helpers. They're particularly useful for tasks that involve generating HTML, formatting data, or handling URLs.
+In Rails, Helpers are modules that contain methods that can be used throughout your application. They're designed to help you write reusable code that can be called from multiple views, controllers, or other helpers. They're particularly useful for tasks that involve generating HTML, formatting data, or handling URL's.
 
 Rails Helpers come in different types, including view helpers, controller helpers, and model helpers. View helpers are the most common type of helpers, and they're used to generate HTML tags, build URLs, and format data for display. Controller helpers are used to add methods to controllers, while model helpers are used to extend the functionality of ActiveRecord models.
 
