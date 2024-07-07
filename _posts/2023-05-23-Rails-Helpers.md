@@ -21,17 +21,17 @@ Rails Helpers come in different types, including view helpers, controller helper
 
 Rails Helpers work by providing a set of methods that can be called from your views, controllers, or models. For example, the `link_to` helper can be used to generate a link to a page in your application. Here's an example:
 
-...
+```
 
 <%= link_to 'Home', root_path %>
 
-...
+```
 
 This code will generate an HTML link to the root page of your application. The `link_to` helper takes two arguments: the text that will be displayed as the link, and the URL that the link should point to.
 
 Rails Helpers are easy to use, and you can create your own helpers if you need to. To create a helper, you simply create a module that contains your helper methods, and then include that module in your views, controllers, or models. Here's an example:
 
-...
+```
 
 module MyHelper   
   
@@ -40,23 +40,23 @@ module MyHelper
   end 
 end
 
-...
+```
 
 To use this helper in your views, you simply include it using the `include` method:
 
-...
+```
 
 <% include MyHelper %>
 
-...
+```
 
 You can then call your helper method from your views:
 
-...
+```
 
 <%= my_helper_method %>
 
-...
+```
 
 
 **Benefits of using Rails Helpers**
