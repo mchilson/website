@@ -30,3 +30,7 @@
   link: https://rcscalebuilder.com/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/2/rcsb.png
   description: RCSB is a hobby community site that has over 16,000 active members and is a worldwide community for this hobby. This site has matured over a 15 year period and continues to grow. This site was developed in Classic ASP and has sub-systems written in ASP.NET and Ruby on Rails. it also uses a couple of Ruby-based web services on the back-end.
+- name: Bob Holman Plans Website
+  link: https://bhplans.com/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/2/bhplans.jpg
+  description: Bob Holman Plans website was a redesign of their classic brochure site that I developed using HTML5 and PHP. It is mostly a static site but has some PHP dynamic content.
