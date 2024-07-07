@@ -6,7 +6,7 @@ description: Overview of Rails Helper Methods
 tags:
 - Rails
 - Programming
-- Versions
+- Helpers
 ---
 
 If you're working with Ruby on Rails, you might have heard about Rails Helpers. They're a powerful tool that can help you write more concise and readable code. In this post, we'll take a closer look at what Rails Helpers are, how they work, and how you can use them to your advantage.
