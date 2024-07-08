@@ -1,0 +1,26 @@
+---
+title: Ruby 3.3... What's New
+layout: post
+post-image: "https://mikechilson-blog-assets.s3.amazonaws.com/gems.jpeg"
+description: High level recap of new Ruby 3.3 features
+tags:
+- Ruby
+- Programming
+- Versions
+---
+
+Ruby 3.3 was released in December 2023 with new features that improve the language's capabilities and make it even more useful for developers. In this blog post, we'll explore some of the most exciting features in Ruby 3.3.
+
+**Prism parser**
+Ruby 3.3 brings with it the Prism parser as a portable, error-tolerant, and maintainable recursive descent parser. Prism is considered production-ready and can be used now in place of the Ripper parser.
+
+**Ruby Just In Time Compiler (RJIT)**
+Ruby 3.3 also adds RJIT as a pure-Ruby compiler to replace MJIT. Upon release, RJIT only supports x86_64 on Unix-like architectures and is considered for experimental purposes only.
+
+**Performance**
+The most noticeable change in Ruby 3.3 is the undeniable speed boost. Buckle up, because YJIT (YoungJIT), the dynamic compiler at the heart of Ruby, has undergone a dramatic upgrade. It tackles previously unsupported call types and megamorphic object shapes, leading to performance increases of over 3x on benchmarks like Optcarrot. Not only that, but Ruby’s core classes have been optimized for faster allocation and memory management, making everything from String#getbyte to Kernel#is_a? zippier than ever.
+
+**Improved Development Experience**
+Ruby 3.3 brings thoughtful improvements to the developer experience. For instance, IRB, the interactive Ruby shell, now boasts type-based autocompletion. IRB will intelligently suggest options based on your code! Additionally, Rails developers rejoice, as M:N thread scheduler for Ractors improves application efficiency and CPU utilization, especially for multi-threaded tasks.
+
+In conclusion, Ruby 3.3 includes several significant improvements that make it an even more powerful and efficient programming language. With its enhanced performance, new concurrency model, and other new features, Ruby 3.2 is an excellent upgrade for developers looking to improve the performance and maintainability of their applications. If you're a Ruby developer, it's worth upgrading to take advantage of the new features in Ruby 3.2. Also, these are by no means all the improvements in Ruby 3.2 To learn more please visit the [release notes](https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/)
