@@ -34,7 +34,8 @@
   link: https://bhplans.com/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/2/bhplans.jpg
   description: Bob Holman Plans website was a redesign of their classic brochure site that I developed using HTML5 and PHP. It is mostly a static site but has some PHP dynamic content.
-- name: MarkLite Markdown Viewer
+- name: MarkLite Markdown Viewer/Editor
   link: https://marklite.app/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
   description: MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I wrote MarkLite out of frustration for having to load a feature-heavy Markdown editor to just view or make a quick change.
+  
