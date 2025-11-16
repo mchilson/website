@@ -38,4 +38,9 @@
   link: https://marklite.app/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
   description: MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I wrote MarkLite out of frustration for having to load a feature-heavy Markdown editor to just view or make a quick change.
-  
+- name: ResizeAll Bulk Image Resizer
+  link: https://resizeall.app/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/resizeall.png
+  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux.
+
+
