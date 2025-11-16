@@ -41,6 +41,6 @@
 - name: ResizeAll Bulk Image Resizer
   link: https://resizeall.app/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/resizeall.png
-  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux.
+  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux, but will be ported to Windows and Mac eventually.
 
 
