@@ -1,3 +1,11 @@
+- name: MarkLite Markdown Viewer/Editor
+  link: https://marklite.app/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
+  description: MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I wrote MarkLite out of frustration for having to load a feature-heavy Markdown editor to just view or make a quick change.
+- name: ResizeAll Bulk Image Resizer
+  link: https://resizeall.app/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/resizeall.png
+  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux, but will be ported to Windows and Mac eventually.
 - name: Automated Vendor Guide
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/thumb_image/10/svg_screen.png
   link:
@@ -14,15 +22,7 @@
   link:
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/3/warehouse.png
   description: This application monitors controls delivery systems in a warehouse to get parts to assembly lines efficiently. This application uses a neural net to calculate the most efficient route based on traffic and the destination. It also monitors the unit status and warns when there are issues. This application is written in Ruby and the database back-end is PostgreSQL.
-- name: MarkLite Markdown Viewer/Editor
-  link: https://marklite.app/
-  image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
-  description: MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I wrote MarkLite out of frustration for having to load a feature-heavy Markdown editor to just view or make a quick change.
-- name: ResizeAll Bulk Image Resizer
-  link: https://resizeall.app/
-  image: https://mikechilson-blog-assets.s3.amazonaws.com/resizeall.png
-  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux, but will be ported to Windows and Mac eventually.
--  name: Priority Software, Inc.
+- name: Priority Software, Inc.
   link: https://prioritysoftware.com
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/8/prioritysoftware.png
   description: Priority Software, Inc. was in need of a new site that was easy to maintain and there to help answer questions from potential customers about their software products. This site was developed using WordPress with a customized theme and several custom-developed plug-ins written in PHP.
