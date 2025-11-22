@@ -26,8 +26,7 @@
   link: https://prioritysoftware.com
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/8/prioritysoftware.png
   description: Priority Software, Inc. was in need of a new site that was easy to maintain and there to help answer questions from potential customers about their software products. This site was developed using WordPress with a customized theme and several custom-developed plug-ins written in PHP.
-- 
-  name: MyPassword.Guru
+- name: MyPassword.Guru
   link: https://mypassword.guru/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/12/mypassword.guru.png
   description: This is a small SaaS (Software as a Service) project I developed for myself after becoming tired of being bombarded by ads or being forced to register for other password sites. While I developed this for myself others are encouraged to use it if needed. It is currently being cleaned up so it can be released as open-source.
