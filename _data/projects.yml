@@ -14,11 +14,20 @@
   link:
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/3/warehouse.png
   description: This application monitors controls delivery systems in a warehouse to get parts to assembly lines efficiently. This application uses a neural net to calculate the most efficient route based on traffic and the destination. It also monitors the unit status and warns when there are issues. This application is written in Ruby and the database back-end is PostgreSQL.
-- name: Priority Software, Inc.
+- name: MarkLite Markdown Viewer/Editor
+  link: https://marklite.app/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
+  description: MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I wrote MarkLite out of frustration for having to load a feature-heavy Markdown editor to just view or make a quick change.
+- name: ResizeAll Bulk Image Resizer
+  link: https://resizeall.app/
+  image: https://mikechilson-blog-assets.s3.amazonaws.com/resizeall.png
+  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux, but will be ported to Windows and Mac eventually.
+-  name: Priority Software, Inc.
   link: https://prioritysoftware.com
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/8/prioritysoftware.png
   description: Priority Software, Inc. was in need of a new site that was easy to maintain and there to help answer questions from potential customers about their software products. This site was developed using WordPress with a customized theme and several custom-developed plug-ins written in PHP.
-- name: MyPassword.Guru
+- 
+  name: MyPassword.Guru
   link: https://mypassword.guru/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/12/mypassword.guru.png
   description: This is a small SaaS (Software as a Service) project I developed for myself after becoming tired of being bombarded by ads or being forced to register for other password sites. While I developed this for myself others are encouraged to use it if needed. It is currently being cleaned up so it can be released as open-source.
@@ -34,13 +43,5 @@
   link: https://bhplans.com/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/2/bhplans.jpg
   description: Bob Holman Plans website was a redesign of their classic brochure site that I developed using HTML5 and PHP. It is mostly a static site but has some PHP dynamic content.
-- name: MarkLite Markdown Viewer/Editor
-  link: https://marklite.app/
-  image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
-  description: MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I wrote MarkLite out of frustration for having to load a feature-heavy Markdown editor to just view or make a quick change.
-- name: ResizeAll Bulk Image Resizer
-  link: https://resizeall.app/
-  image: https://mikechilson-blog-assets.s3.amazonaws.com/resizeall.png
-  description: ResizeAll is an easy to use application for resizing and preparing images for the web. It is currently available for Linux, but will be ported to Windows and Mac eventually.
 
 
