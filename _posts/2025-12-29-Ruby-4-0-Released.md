@@ -41,4 +41,4 @@ Kernel#inspect's output can now be customized with which instance variables you 
 - Ruby 4.0 is now available in the official Ruby Docker images.  
   
 
-You can read more details about Ruby 3.4 by [clicking here](https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/).
+You can read more details about Ruby 4.0 by [clicking here](https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/).
