@@ -14,7 +14,7 @@ MarkLite is an open-source, lightweight Markdown Viewer and Editor for Linux. I 
 
 **Overview**
 
-Basically the way MarkLite works is it opens in a viewer mode. You can either read the Markdown document then close it or simply click the Edit button to edit it. Edit mode is a full features edit with features like Find, Got Line, Line Numbers, Syntax Highlighting and Key Commands.
+Basically the way MarkLite works is it opens in a viewer mode. You can either read the Markdown document then close it or simply click the Edit button to edit it. Edit mode is a full features edit with features like Find, Goto Line, Line Numbers, Syntax Highlighting and Key Commands.
 
 **Features** 
 - Lightweight application that loads fast.
