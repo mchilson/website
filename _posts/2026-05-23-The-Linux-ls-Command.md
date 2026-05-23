@@ -82,12 +82,12 @@ The **ls** command is one of the most fundamental and frequently used commands i
     This enables powerful command chaining without saving intermediate results to files.
 
 -  **Examples with grep**  
-  - List only files containing "report" in their name:
-    **ls | grep report**
-  - Case-insensitive search:
-    **ls | grep -i report**
-  - Show detailed list of .txt files:
-    **ls -l | grep '\.txt$'**
+  -  List only files containing "report" in their name:
+     **ls | grep report**
+  -  Case-insensitive search:
+     **ls | grep -i report**
+  -  Show detailed list of .txt files:
+     **ls -l | grep '\.txt$'**
 
 -  **Other Useful Pipes**  
   - Count files in directory:
