@@ -19,22 +19,22 @@ The **ls** command is one of the most fundamental and frequently used commands i
 ## Basic Use of the ls Command 
 
 - **Listing Files and Directories**
-    - To list the contents of the current directory in the terminal type: **ls**  
-    - This shows files and directories in a simple columnar format.  
+  - To list the contents of the current directory in the terminal, type: `ls`
+  - This shows files and directories in a simple columnar format.
 
-- **Listing with Details**  
-    - Use the **-l** option for a long listing format that includes permissions, owner, size, and modification time: **ls -l**  
+- **Listing with Details**
+  - Use the `-l` option for a long listing format that includes permissions, owner, size, and modification time: `ls -l`
 
-- **Listing Hidden Files**  
-    - Hidden files start with a dot (.). Use the **-a** option to show them: **ls -a**
-    - **NOTE:** You can combine options like this: **ls -la** or **ls -al**
+- **Listing Hidden Files**
+  - Hidden files start with a dot (`.`). Use the `-a` option to show them: `ls -a`
+  - **Note:** You can combine options like this: `ls -la` or `ls -al`
 
-- **Listing Specific Directory**  
-    - To list contents of a specific directory: **ls /path/to/directory**
-    - Example: **ls /home/user/Documents**
+- **Listing Specific Directory**
+  - To list contents of a specific directory: `ls /path/to/directory`
+  - Example: `ls /home/user/Documents`
 
-- **Human-Readable Sizes**  
-    - Use **-h** with **-l** to show file sizes in human-readable format (KB, MB, etc.): **ls -lh**
+- **Human-Readable Sizes**
+  - Use `-h` with `-l` to show file sizes in human-readable format (KB, MB, etc.): `ls -lh`
 
 ---
 
