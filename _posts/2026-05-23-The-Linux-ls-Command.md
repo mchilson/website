@@ -18,49 +18,49 @@ The **ls** command is one of the most fundamental and frequently used commands i
 
 ## Basic Use of the ls Command 
 
--  **Listing Files and Directories**
-  -  To list the contents of the current directory in the terminal type: **ls**  
-  -  This shows files and directories in a simple columnar format.  
+- **Listing Files and Directories**
+    - To list the contents of the current directory in the terminal type: **ls**  
+    - This shows files and directories in a simple columnar format.  
 
--  **Listing with Details**  
-  -  Use the **-l** option for a long listing format that includes permissions, owner, size, and modification time: **ls -l**  
+- **Listing with Details**  
+    - Use the **-l** option for a long listing format that includes permissions, owner, size, and modification time: **ls -l**  
 
--  **Listing Hidden Files**  
-  -  Hidden files start with a dot (.). Use the **-a** option to show them: **ls -a**
-  -  **NOTE:** You can combine options like this: **ls -la** or **ls -al**
+- **Listing Hidden Files**  
+    - Hidden files start with a dot (.). Use the **-a** option to show them: **ls -a**
+    - **NOTE:** You can combine options like this: **ls -la** or **ls -al**
 
 - **Listing Specific Directory**  
-  -  To list contents of a specific directory: **ls /path/to/directory**
-  -  Example: **ls /home/user/Documents**
+    - To list contents of a specific directory: **ls /path/to/directory**
+    - Example: **ls /home/user/Documents**
 
--  **Human-Readable Sizes**  
-  -  Use **-h** with **-l** to show file sizes in human-readable format (KB, MB, etc.): **ls -lh**
+- **Human-Readable Sizes**  
+    - Use **-h** with **-l** to show file sizes in human-readable format (KB, MB, etc.): **ls -lh**
 
 ---
 
 ## Advanced Uses of the ls Command 
 
--  **Sorting Options**  
-  - Sort by size (largest first): **ls -lS**
-  - Sort by modification time (newest first): **ls -lt**
-  - Reverse sort: Add **-r**, e.g., **ls -ltr** (oldest first)
+- **Sorting Options**  
+    - Sort by size (largest first): **ls -lS**
+    - Sort by modification time (newest first): **ls -lt**
+    - Reverse sort: Add **-r**, e.g., **ls -ltr** (oldest first)
 
--  **Recursive Listing**  
-  - List contents of directories recursively: **ls -R**
+- **Recursive Listing**  
+    - List contents of directories recursively: **ls -R**
 
--  **File Type Indicators**  
-  - Show file types with symbols (/ for directories, * for executables): **ls -F**
+- **File Type Indicators**  
+    - Show file types with symbols (/ for directories, * for executables): **ls -F**
 
--  **Colorized Output**  
-  - Many systems have color support enabled by default. If not: **ls --color=auto** 
-  - NOTE: many modern distros alias **ls** to **ls --color=auto**
+- **Colorized Output**  
+    - Many systems have color support enabled by default. If not: **ls --color=auto** 
+    - NOTE: many modern distros alias **ls** to **ls --color=auto**
 
--  **Ignoring Patterns**  
-  - Ignore files matching a pattern: **ls --ignore=\*.tmp**
+- **Ignoring Patterns**  
+    - Ignore files matching a pattern: **ls --ignore=\*.tmp**
 
 - **Combining Options**  
-  - Common powerful combination: **ls -lathr**
-  This shows all files (-a), long format (-l), human-readable sizes (-h), sorted by time (-t), reversed (-r)
+    - Common powerful combination: **ls -lathr**
+    This shows all files (-a), long format (-l), human-readable sizes (-h), sorted by time (-t), reversed (-r)
 
 ---
 
