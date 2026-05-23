@@ -45,18 +45,23 @@ The **ls** command is one of the most fundamental and frequently used commands i
   - Sort by modification time (newest first): **ls -lt**
   - Reverse sort: Add **-r**, e.g., **ls -ltr** (oldest first)
 
+
 **Recursive Listing**  
   - List contents of directories recursively: **ls -R**
 
+
 **File Type Indicators**  
   - Show file types with symbols (/ for directories, * for executables): **ls -F**
+
 
 **Colorized Output**  
   - Many systems have color support enabled by default. If not: **ls --color=auto** 
   - NOTE: many modern distros alias **ls** to **ls --color=auto**
 
+
 **Ignoring Patterns**  
   - Ignore files matching a pattern: **ls --ignore=\*.tmp**
+
 
 **Combining Options**  
   - Common powerful combination: **ls -lathr**
