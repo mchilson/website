@@ -59,7 +59,7 @@ Ignoring Patterns
   - Ignore files matching a pattern: **ls --ignore=\*.tmp**
 
 Combining Options
-  - Common powerful combination: **ls -lahtr**
+  - Common powerful combination: **ls -lathr**
   This shows all files (-a), long format (-l), human-readable sizes (-h), sorted by time (-t), reversed (-r)
 
 ---
