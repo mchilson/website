@@ -41,25 +41,25 @@ The **ls** command is one of the most fundamental and frequently used commands i
 ## Advanced Uses of the ls Command 
 
 - **Sorting Options**  
-    - Sort by size (largest first): **ls -lS**
-    - Sort by modification time (newest first): **ls -lt**
-    - Reverse sort: Add **-r**, e.g., **ls -ltr** (oldest first)
+  - Sort by size (largest first): `ls -lS`
+  - Sort by modification time (newest first): `ls -lt`
+  - Reverse sort: Add `-r`, e.g., `ls -ltr (oldest first)
 
 - **Recursive Listing**  
-    - List contents of directories recursively: **ls -R**
+    - List contents of directories recursively: `ls -R`
 
 - **File Type Indicators**  
-    - Show file types with symbols (/ for directories, * for executables): **ls -F**
+    - Show file types with symbols (/ for directories, * for executables): `ls -F`
 
 - **Colorized Output**  
-    - Many systems have color support enabled by default. If not: **ls --color=auto** 
-    - NOTE: many modern distros alias **ls** to **ls --color=auto**
+    - Many systems have color support enabled by default. If not: `ls --color=auto` 
+    - NOTE: many modern distros alias `ls` to `ls --color=auto`
 
 - **Ignoring Patterns**  
-    - Ignore files matching a pattern: **ls --ignore=\*.tmp**
+    - Ignore files matching a pattern: `ls --ignore=\*.tmp`
 
 - **Combining Options**  
-    - Common powerful combination: **ls -lathr**
+    - Common powerful combination: `ls -lathr`
     This shows all files (-a), long format (-l), human-readable sizes (-h), sorted by time (-t), reversed (-r)
 
 ---
@@ -68,42 +68,39 @@ The **ls** command is one of the most fundamental and frequently used commands i
 
 -  **Setting Default ls Behavior in Login Scripts**  
   - You can create an alias in your shell configuration file to make ls behave differently by default.
-  - For example, Bash users, edit **~/.bashrc** or **~/.bash_profile**:
-    **alias ls='ls --color=auto -h'** (can be ls with any parameters)
+  - For example, Bash users, edit ~/.bashrc or ~/.bash_profile:
+      `alias ls='ls --color=auto -h'` (can be ls with any parameters)
   - For more advanced defaults:
-    **alias ll='ls -lh'**
-    **alias la='ls -lah'**
-  - After editing, reload with: **source ~/.bashrc**
+    `alias ll='ls -lh'`
+    `alias la='ls -lah'`
+  - After editing, reload with: `source ~/.bashrc`
 
--  **Piping **ls** Output to Other Commands**  
+-  **Piping ls Output to Other Commands**  
   - The pipe operator (**|**) allows you to send the output of one command as input to another.
   - Explanation of the pipe command:
-    The **|** symbol connects the standard output (stdout) of the left command to the standard input (stdin) of the right command.
+    The `|` symbol connects the standard output (stdout) of the left command to the standard input (stdin) of the right command.
     This enables powerful command chaining without saving intermediate results to files.
 
 -  **Examples with grep**  
-  -  List only files containing "report" in their name: **ls | grep report**
-  -  Case-insensitive search: **ls | grep -i report**
-  -  Show detailed list of .txt files: **ls -l | grep '\.txt$'**
+  -  List only files containing "report" in their name: `ls | grep report`
+  -  Case-insensitive search: `ls | grep -i report`
+  -  Show detailed list of .txt files: `ls -l | grep '\.txt$'`
 
 -  **Other Useful Pipes**  
-  - Count files in directory:
-    **ls | wc -l**
-  - Find largest files:
-    **ls -lS | head -n 10**
-  - Paginate long output:
-    **ls -l | less**
+  - Count files in directory: `ls | wc -l`
+  - Find largest files: `ls -lS | head -n 10`
+  - Paginate long output: `ls -l | less`
 
 -  **Additional Pro Tips**  
-  - Use **ls -1** to list one file per line (useful for scripting).
-  - For inode numbers: **ls -i**
-  - Show full paths with tree alternative or find, but ls can combine: **ls -d $PWD/\***
-  - In scripts, always quote variables when using ls to handle spaces: **ls "$DIR"**
-  - Performance note: For very large directories, consider using **find** instead of **ls -R**
+  - Use `ls -1` to list one file per line (useful for scripting).
+  - For inode numbers: `ls -i`
+  - Show full paths with tree alternative or find, but ls can combine: `ls -d $PWD/\*`
+  - In scripts, always quote variables when using ls to handle spaces: `ls "$DIR"`
+  - Performance note: For very large directories, consider using `find` instead of `ls -R`
 
 ---
 
 ## Conclusion 
-Mastering the ls command significantly improves your efficiency on the Linux command line. Practice these options in your terminal to become comfortable with them. Combine ls with other commands using pipes for even more powerful workflows. Don't forget, all this information can be found in the ls man page ()**man ls**).
+Mastering the ls command significantly improves your efficiency on the Linux command line. Practice these options in your terminal to become comfortable with them. Combine ls with other commands using pipes for even more powerful workflows. Don't forget, all this information can be found in the ls man page `man ls`.
 
 Stay tuned for more tutorials.
