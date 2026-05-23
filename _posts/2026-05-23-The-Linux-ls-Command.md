@@ -10,7 +10,7 @@ tags:
 - Tutorial
 ---
 
-###Introduction
+##Introduction
 
 The **ls** command is one of the most fundamental and frequently used commands in Linux and Unix-like operating systems. It stands for "list" and is used to display the contents of a directory. This tutorial covers basic usage, advanced options, and professional tips for mastering **ls**.
 
