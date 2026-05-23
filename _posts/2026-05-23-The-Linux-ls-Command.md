@@ -4,19 +4,19 @@ layout: post
 post-image: "https://mikechilson-blog-assets.s3.us-east-1.amazonaws.com/the-linux-ls-command.jpg"
 description: Part one in the Linux Command Series
 tags:
-- Commands
-- Bash
-- Linux
-- Tutorial
+- Commands 
+- Bash 
+- Linux 
+- Tutorial 
 ---
 
-##Introduction
+## Introduction
 
 The **ls** command is one of the most fundamental and frequently used commands in Linux and Unix-like operating systems. It stands for "list" and is used to display the contents of a directory. This tutorial covers basic usage, advanced options, and professional tips for mastering **ls**.
 
 ---
 
-##Basic Use of the ls Command 
+## Basic Use of the ls Command 
 
 Listing Files and Directories
   - To list the contents of the current directory in the terminal type: **ls**  
@@ -38,7 +38,7 @@ Human-Readable Sizes
 
 ---
 
-##Advanced Uses of the ls Command 
+## Advanced Uses of the ls Command 
 
 Sorting Options
   - Sort by size (largest first): **ls -lS**
@@ -64,7 +64,7 @@ Combining Options
 
 ---
 
-##Pro Tips: Advanced Tips and Tricks 
+## Pro Tips: Advanced Tips and Tricks 
 
 Setting Default ls Behavior in Login Scripts
   - You can create an alias in your shell configuration file to make ls behave differently by default.
@@ -106,7 +106,7 @@ Additional Pro Tips
 
 ---
 
-##Conclusion 
+## Conclusion 
 Mastering the ls command significantly improves your efficiency on the Linux command line. Practice these options in your terminal to become comfortable with them. Combine ls with other commands using pipes for even more powerful workflows. Don't forget, all this information can be found in the ls man page ()**man ls**).
 
 Stay tuned for more tutorials.
