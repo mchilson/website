@@ -19,8 +19,8 @@ The **ls** command is one of the most fundamental and frequently used commands i
 ## Basic Use of the ls Command 
 
 - Listing Files and Directories
-  - To list the contents of the current directory in the terminal, type: `ls`
-  - This shows files and directories in a simple columnar format.
+    - To list the contents of the current directory in the terminal, type: `ls`
+    - This shows files and directories in a simple columnar format.
 
 - Listing with Details
   - Use the `-l` option for a long listing format that includes permissions, owner, size, and modification time: `ls -l`
