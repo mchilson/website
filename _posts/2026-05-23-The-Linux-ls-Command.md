@@ -36,6 +36,15 @@ The **ls** command is one of the most fundamental and frequently used commands i
 **Human-Readable Sizes**
 - Use `-h` with `-l` to show file sizes in human-readable format (KB, MB, etc.): `ls -lh`
 
+**Using Wildcards**  
+Wildcards are powerful pattern-matching tools that allow you to list directories and files selectively without typing every name. They are especially useful when working with large directories or groups of files.
+
+| Wildcard | Description                        | Example                    |
+|----------|------------------------------------|----------------------------|
+| `*`      | Matches any number of characters   | `ls *.txt`                 |
+| `?`      | Matches exactly one character      | `ls report?.pdf`           |
+| `[]`     | Matches any character in the set   | `ls file[1-5].txt`         |  
+
 ---
 
 ## Advanced Uses of the ls Command 
