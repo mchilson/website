@@ -81,7 +81,7 @@ Wildcards are powerful pattern-matching tools that allow you to list directories
 - After editing, reload with: `source ~/.bashrc`
 
 **Piping ls Output to Other Commands**
-- The pipe operator (**|**) allows you to send the output of one command as input to another.
+- The pipe operator `|` allows you to send the output of one command as input to another.
 - The `|` symbol connects the standard output (stdout) of the left command to the standard input (stdin) of the right command. This enables powerful command chaining without saving intermediate results to files.
 
 **Examples with grep**
