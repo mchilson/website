@@ -5,7 +5,7 @@ post-image: "https://mikechilson-blog-assets.s3.us-east-1.amazonaws.com/linux-fi
 description: Part two in the Linux Command Series
 tags:
 - Commands 
-- Terminal
+- Terminal 
 - Bash 
 - Linux 
 - Tutorial 
