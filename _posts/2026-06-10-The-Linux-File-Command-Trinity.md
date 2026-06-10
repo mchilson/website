@@ -4,11 +4,11 @@ layout: post
 post-image: "https://mikechilson-blog-assets.s3.us-east-1.amazonaws.com/linux-file-commands.png"
 description: Part two in the Linux Command Series
 tags:
-- Commands 
-- Terminal 
-- Bash 
-- Linux 
-- Tutorial 
+- Commands  
+- Terminal  
+- Bash  
+- Linux  
+- Tutorial  
 ---
 
 ## Introduction
