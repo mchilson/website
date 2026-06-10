@@ -19,7 +19,7 @@ The **cp**, **rm**, and **mv** commands form the essential "File Trinity" for ma
 **rm** (remove) deletes them.
 **mv** (move) relocates or renames them.
 
-Mastering these three commands is critical for efficient and safe file management in the terminal. This tutorial covers basic usage, common options, advanced techniques, and important safety.
+Mastering these three commands is critical for efficient and safe file management in the terminal. This tutorial covers basic usage, common options, advanced techniques, and important safety. 
 
 ---
 
