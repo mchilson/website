@@ -135,7 +135,9 @@ Use `scp` or `rsync` for remote, but `cp` locally
 ## Pro Tips and Safety 
 
 Always use **-i** when unsure, especially with `rm` and `mv`.  
-Test with echo first: `echo rm -rf *.tmp` to preview what will be deleted.
+
+Test with echo first: `echo rm -rf *.tmp` to preview what will be deleted.  
+
 Create aliases for safety (add to ~/.bashrc):  
 `alias rm='rm -i'`  
 `alias cp='cp -i'`  
