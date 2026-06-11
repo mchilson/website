@@ -153,7 +153,7 @@ Recovering deleted files is difficult. Use backups or tools like testdisk/photor
 ---
 
 ## Conclusion 
-The **cp**, **rm**, and **mv** commands are the foundation of Linux file management. Once you master their basic syntax, options, and safe practices, you’ll navigate and organize your filesystem with confidence and speed. Practice in a safe directory first. Combine these commands with **ls**, pipes (), and shell loops for powerful automation.  
+The **cp**, **rm**, and **mv** commands are the foundation of Linux file management. Once you master their basic syntax, options, and safe practices, you’ll navigate and organize your filesystem with confidence and speed. Practice in a safe directory first. Combine these commands with other commands, pipes (), and shell loops for powerful automation on your linux system.  
 
 More  details are available in the man pages:  
 `man cp`  
