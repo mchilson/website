@@ -1,5 +1,5 @@
 ---
-title: The Linux File Command Trinity
+title: The Linux File/Directory Command Trinity
 layout: post
 post-image: "https://mikechilson-blog-assets.s3.us-east-1.amazonaws.com/linux-file-commands.png"
 description: Part two in the Linux Command Series
@@ -13,13 +13,13 @@ tags:
 
 ## Introduction
 
-The **cp**, **rm**, and **mv** commands form the essential "File Trinity" for managing files/directories in Linux and Unix-like systems.
+The **cp**, **rm**, and **mv** commands form the essential "File/Directory Trinity" for managing files/directories in Linux and Unix-like systems.
 
 **cp** (copy) duplicates files and directories.
 **rm** (remove) deletes them.
 **mv** (move) relocates or renames them.
 
-Mastering these three commands is critical for efficient and safe file management in the terminal. This tutorial covers basic usage, common options, advanced techniques, and important safety. 
+Mastering these three commands is critical for efficient and safe file and directory management in the terminal. This tutorial covers basic usage, common options, advanced techniques, and important safety. 
 
 ---
 
@@ -27,50 +27,48 @@ Mastering these three commands is critical for efficient and safe file managemen
 
 **Copying Files and Directories with `cp`**  
   
-Copy a Single File  
+Copy a single file to another filename
 `cp source.txt destination.txt`  
 This creates an exact copy of source.txt as destination.txt.  
   
-Copy a File to a Directory  
+Copy a file in the current directory to another directory  
 `cp document.pdf /home/user/Documents/`  
-The file keeps its original name in the target directory.  
   
-Copy Multiple Files  
+Copy multiple files from the current directory to another directory
 `cp file1.txt file2.txt file3.txt /target/directory/`  
 `cp *.txt /target/directory/`  
   
-Copy a Directory Recursively (Use the -r or -R flag for directories)  
+Copy a directory recursively to another directory (use the -r or -R flag for directories)  
 `cp -r projects/ /backup/projects/`  
 
 
 **Removing Files and Directories with `rm`**  
   
-Delete a Single File  
+Delete a single file in the current directory  
 `rm unwanted.txt`  
 
-Delete Multiple Files  
+Delete multiple files in the current directory  
 `rm file1.log file2.log`  
 `rm *.log`  
 `rm file[1-5].log`  
 
-Delete a Directory and All Contents  
+Delete a directory and all the contents from the current directory  
 `rm -r old_project/`  
-
 *Warning: rm is permanent—there is no recycle bin.*
 
 
 **Moving or Renaming with `mv`**  
   
-Move a File to Another Directory  
+Move a file in the current directory to another Directory  
 `mv report.pdf /home/user/Archives/`  
   
-Rename a File  
+Rename a file in the current directory  
 `mv old_name.txt new_name.txt`  
   
-Move and Rename in One Step  
+Move and rename a file in the current directory in one step  
 `mv data.csv /archive/final_report_2026.csv`  
   
-Move Multiple Items  
+Move multiple files in the current directory  
 `mv file1.txt file2.txt archive/`  
 `mv *.txt  archive/`  
 `mv file[1-2].txt archive/`  
@@ -105,20 +103,20 @@ Move Multiple Items
 ## Advanced Uses and Combinations
 
 **Copy with Wildcards (All Three Commands Support These)**  
-Copy all JPEGs  
+Copy all JPEGs in the current directory to another directory  
 `cp *.jpg /pictures/`  
 
-Remove all temporary files  
+Remove all temporary files in teh current directory  
 `rm *.tmp`  
 
-Move all pdf files to another directory  
+Move all pdf files that start with "report" in teh current directory to another directory  
 `mv report_*.pdf /final_reports/`  
 
 **Safe Recursive Operations**  
-Copy entire home directory structure (removing ownernship)  
+Copy entire home directory structure (removing the ownernship) to another directory  
 `cp -a --no-preserve=ownership /home/user/ /backup/`  
 
-Remove a directory and all its contents  
+Remove a subdirectory and all its contents in teh current directory  
 `rm -rf testdata/`  
 Careful! Make sure this is what you want to do!
 
