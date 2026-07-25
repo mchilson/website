@@ -1,3 +1,7 @@
+- name: PromptRobot Command Automation Tool
+  link: https://promptrobot.app/
+  image: https://mikechilson-blog-assets.s3.us-east-1.amazonaws.com/promptrobot-0.2.0.png
+  description: PromptRobot is a lightweight and fast graphical tool for Linux to store and run your obscure or complex command-line apps and bash commands with the click of a button, without having to look them up every time or search through bash history.
 - name: MarkLite Markdown Viewer/Editor
   link: https://marklite.app/
   image: https://mikechilson-blog-assets.s3.amazonaws.com/marklite.png
@@ -17,7 +21,7 @@
 - name: Data Warehouse Dashboard
   link:
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/data-warehouse-small.png
-  description: This application is a web-based "dashboard" front end to show the status of various system imports and jobs into a data warehouse I architectured for a client. The dashboard was developed using Ruby on Rails with a Javascript front-end graphing library.
+  description: This application is a web-based "dashboard" front end to show the status of various system imports and jobs into a data warehouse I built for a client. The dashboard was developed using Ruby on Rails with a Javascript front-end graphing library.
 - name: Warehouse Robotic Management System
   link:
   image: https://mikechilson-blog-assets.s3.amazonaws.com/uploads/portfolio/main_image/3/warehouse.png
